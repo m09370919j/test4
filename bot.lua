@@ -3,7 +3,7 @@ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 tdcli = dofile('tdcli.lua')
-redis = (loadfile "./libs/redis.lua")()
+--redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
 serp = require 'serpent'.block
 
